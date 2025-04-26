@@ -9,5 +9,7 @@ public interface EmpleadoServicio {
 
     List<Empleado> getTodosEmpleadosManual();
 
+    Empleado getEmpleadoPorId(Long id);
+
 }
 
