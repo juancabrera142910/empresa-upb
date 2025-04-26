@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "empresa-upb"
+  datasource:
+    url: jdbc:mysql://localhost:3306/upb
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+
